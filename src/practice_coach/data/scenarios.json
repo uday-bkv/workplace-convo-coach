@@ -1,0 +1,69 @@
+{
+  "_review_status": "DRAFT - placeholder content written by a developer. Must be co-designed and reviewed with autistic adults and employment specialists before any use with participants.",
+  "scenarios": [
+    {
+      "id": "deadline_stress",
+      "title": "A colleague is worried about a deadline",
+      "setting": "Team kitchen, mid-afternoon",
+      "prompt": "Your colleague Sam says: \"I've been here since 7am and I still don't think I'll finish the report by Friday. I'm really stressed about it.\"",
+      "goal": "Acknowledge what Sam said and respond to the concern they shared.",
+      "criteria": {
+        "acknowledge": ["sounds", "that's a lot", "that is a lot", "long day", "since 7", "stressful", "stressed", "hard", "tough", "difficult", "sorry"],
+        "respond_to_concern": ["report", "friday", "deadline", "finish"],
+        "next_step": ["help", "can i", "could i", "would it help", "want me", "do you want", "manager", "extension", "?"]
+      },
+      "example_responses": [
+        "That sounds like a really long day. Is there any part of the report I could help with?",
+        "Being here since 7 is a lot. Would it help to ask our manager about Friday?"
+      ]
+    },
+    {
+      "id": "good_news",
+      "title": "A teammate shares good news",
+      "setting": "Start of a team meeting",
+      "prompt": "Your teammate Priya says: \"I just heard the client approved our proposal! I worked on it for weeks.\"",
+      "goal": "Recognise the news and respond to what Priya shared.",
+      "criteria": {
+        "acknowledge": ["congrat", "great", "well done", "nice", "awesome", "fantastic", "good news", "happy for you", "that's exciting"],
+        "respond_to_concern": ["proposal", "client", "weeks", "work", "approved"],
+        "next_step": ["?", "what's next", "what happens next", "how did", "celebrate", "tell me"]
+      },
+      "example_responses": [
+        "Congratulations! You put weeks into that proposal. What happens next with the client?",
+        "That's great news, well done. How did you hear?"
+      ]
+    },
+    {
+      "id": "feedback_from_manager",
+      "title": "Your manager gives a correction",
+      "setting": "One-to-one check-in",
+      "prompt": "Your manager says: \"The spreadsheet you sent had a few numbers in the wrong column. It's an easy mistake, but the client noticed.\"",
+      "goal": "Acknowledge the feedback and say what you will do next.",
+      "criteria": {
+        "acknowledge": ["thank", "thanks", "sorry", "i see", "understood", "got it", "i understand", "noted"],
+        "respond_to_concern": ["spreadsheet", "numbers", "column", "client", "mistake"],
+        "next_step": ["fix", "correct", "check", "double-check", "update", "resend", "will", "?"]
+      },
+      "example_responses": [
+        "Thanks for telling me. I'll fix the columns and resend it today.",
+        "Sorry about that. Which numbers were wrong, so I can double-check them?"
+      ]
+    },
+    {
+      "id": "sick_colleague",
+      "title": "A colleague returns after being unwell",
+      "setting": "Desk area, morning",
+      "prompt": "Your colleague Alex says: \"Morning. I'm back, but I'm still not feeling 100% after being off sick last week.\"",
+      "goal": "Respond to what Alex said about how they are.",
+      "criteria": {
+        "acknowledge": ["welcome back", "good to see", "glad", "sorry", "hope", "take it easy"],
+        "respond_to_concern": ["feel", "sick", "unwell", "better", "100", "last week"],
+        "next_step": ["?", "let me know", "if you need", "help", "anything"]
+      },
+      "example_responses": [
+        "Welcome back. Sorry you're still not feeling 100%. Let me know if you need anything.",
+        "Glad you're back. Hope you feel better soon - do you want me to fill you in on last week?"
+      ]
+    }
+  ]
+}

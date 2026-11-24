@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "practice-coach"
+version = "0.1.0"
+description = "Learning prototype: workplace conversation practice with bounded, rubric-based feedback"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42"]
+
+[project.optional-dependencies]
+speech = ["sounddevice>=0.4", "numpy>=1.24", "faster-whisper>=1.0"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+practice-coach = "practice_coach.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"practice_coach.data" = ["*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
